@@ -1,56 +1,92 @@
-# Welcome to your Expo app 👋
+# NFT Cards
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean and minimal React Native app for browsing and exploring NFT cards, with full dark mode support.
 
-## Get started
+---
 
-1. Install dependencies
+## Screenshots
 
-   ```bash
-   npm install
-   ```
+### Welcome Screen
 
-2. Start the app
+| Light | Dark |
+|-------|------|
+| ![Welcome Light](screenshots/welcome-light.png) | ![Welcome Dark](screenshots/welcome-dark.png) |
 
-   ```bash
-   npx expo start
-   ```
+### Home Screen
 
-In the output, you'll find options to open the app in a
+| Light | Dark |
+|-------|------|
+| ![Home Light](screenshots/home-light.png) | ![Home Dark](screenshots/home-dark.png) |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Details Screen
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+| Light | Dark |
+|-------|------|
+| ![Details Light](screenshots/details-light.png) | ![Details Dark](screenshots/details-dark.png) |
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## Features
+
+- Browse and explore NFT cards
+- Smooth navigation across Welcome, Home, and Details screens
+- Full dark mode support that adapts to system preferences
+
+---
+
+## Screens
+
+**Welcome** — Entry point of the app. Introduces the experience and directs users to the main content.
+
+**Home** — Displays the NFT card collection in a browsable layout.
+
+**Details** — Shows in-depth information about a selected NFT card.
+
+---
+
+## Tech Stack
+
+- [React Native](https://reactnative.dev/)
+- Dark mode via `useColorScheme` / appearance API
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js
+- React Native CLI or Expo CLI
+- Android Studio / Xcode
+
+### Installation
 
 ```bash
-npm run reset-project
+git clone https://github.com/Ahmedhany23/nft-react-native.git
+cd nft-cards
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### Run on Android
 
-### Other setup steps
+```bash
+npx react-native run-android
+```
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+### Run on iOS
 
-## Learn more
+```bash
+npx react-native run-ios
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Dark Mode
 
-## Join the community
+The app automatically adapts to the device's system appearance. No manual toggle needed — switch your device to dark mode and the app follows.
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## License
+
+MIT
