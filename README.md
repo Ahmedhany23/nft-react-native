@@ -10,19 +10,19 @@ A clean and minimal React Native app for browsing and exploring NFT cards, with 
 
 | Light | Dark |
 |-------|------|
-| ![Welcome Light](screenshots/welcome-light.png) | ![Welcome Dark](screenshots/welcome-dark.png) |
+| ![Welcome Light](assets/screenshots/welcome-light.png) | ![Welcome Dark](assets/screenshots/welcome-dark.png) |
 
 ### Home Screen
 
 | Light | Dark |
 |-------|------|
-| ![Home Light](screenshots/home-light.png) | ![Home Dark](screenshots/home-dark.png) |
+| ![Home Light](assets/screenshots/home-light.png) | ![Home Dark](assets/screenshots/home-dark.png) |
 
 ### Details Screen
 
 | Light | Dark |
 |-------|------|
-| ![Details Light](screenshots/details-light.png) | ![Details Dark](screenshots/details-dark.png) |
+| ![Details Light](assets/screenshots/details-light.png) | ![Details Dark](assets/screenshots/details-dark.png) |
 
 ---
 
